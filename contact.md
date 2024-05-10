@@ -35,10 +35,21 @@ subtitle:
   align-items: center;
   max-width: 600px;
   width: 100%;
-  border-radius: 25px;
-  padding: 30px;
+  border-radius: 24px;
+  padding: 25px;
   border: 1px solid #ffffff40;
   box-shadow: 0 5px 20px rgba(0,0,0,0.4);
+  position: relative;
+}
+.profile-card::before{
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    border-radius: 24px;
+    height: 36%;
+    width: 100%;
+    background-color: #0e4bf1;
 }
 .image{
   position: relative;
