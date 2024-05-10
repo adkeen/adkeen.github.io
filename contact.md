@@ -25,6 +25,7 @@ subtitle:
   display: flex;
   align-items: center;
   justify-content: center;
+  background-color: #f4f4f4;
   background-image: url(assets/img/bgimage.png);
   background-position: center;
   background-size: cover;
@@ -48,11 +49,12 @@ subtitle:
   background-color: grey;
   padding: 3px;
 }
-.image .profile-pic{
+.image .profile-img{
   width: 100%;
   height: 100%;
   object-fit: cover;
   border-radius: 50%;
+  border: 3px solid #fff;
   box-shadow: 0 5px 20px rgba(0,0,0,0.4);
 }
 .data{
@@ -90,7 +92,6 @@ span{
   border-radius: 25px;
   font-size: 18px;
   white-space: nowrap;
-  background: linear-gradient(to left, #33ccff 0%, #ff99cc 100%);
 }
 .buttons .btn:hover{
   box-shadow: inset 0 5px 20px rgba(0,0,0,0.4);
@@ -99,17 +100,20 @@ span{
 <section class="main">
   <div class="profile-card">
     <div class="image">
-      <img src="assets/img/keen_prof.jpg" alt="Austin Keen" class="profile-pic">
+      <img src="/assets/img/keen_prof.jpg" alt="Austin Keen" class="profile-img">
     </div>
     <div class="data">
       <h2>Austin D. Keen</h2>
       <span>Linguistics PhD Student</span>
-      <span>Northwestern University</span>
+      <span style="color:#4E2A84;">Northwestern University</span>
       <br>
-      <span>Name Pronunciation:<br>
-      <a href="">[ˈɔstɪn · kiːn]</a></span>
+      <span>Name Pronunciation:</span>
+      <span><a href="">[ˈɔstɪn · kiːn]</a></span>
+      <br>
       <span>Pronouns: he/él</span>
+      <br>
       <span>Email: <a href="mailto:aukeen@u.northwestern.edu">aukeen[at]u.northwestern.edu</a></span>
+      <br>
       <span>Mail: 2016 Sheridan Road, Evanston, IL 60208</span>
     </div>
     
