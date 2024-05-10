@@ -6,7 +6,7 @@ subtitle:
 
 ## Publications
 #### 2023
-* Lee, J., **Keen, A.D.**, Farr, E., & Christ, S. (2023). TelePriming sentence production in aphasia. *Frontiers in Human Neuroscience*, *17*.<br>Test Link
+* Lee, J., **Keen, A.D.**, Farr, E., & Christ, S. (2023). TelePriming sentence production in aphasia. *Frontiers in Human Neuroscience*, *17*.<br>[Test Link](https://www.tandfonline.com/doi/full/10.1080/02687038.2022.2159314)
 
 * Van Boxtel, W. S., Cox, B. N., **Keen, A.**, & Lee, J. (2023). Planning sentence production in aphasia: Evidence from structural priming and eye-tracking. *Frontiers in Language Sciences*, *2*.
 
