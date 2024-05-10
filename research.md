@@ -10,10 +10,6 @@ subtitle:
     width: 450px;
     margin: 0 auto;
 }
-.content {
-    overflow: hidden;
-    background: #fdd;
-}
 .sidebar {
     float: right;
     width: 200px;
@@ -69,10 +65,10 @@ subtitle:
 * Keen, A., Kuhns, J., & Zhang, M. (April 2016). Structural Priming in Motion Event Descriptions: Evidence from Mandarin Chinese and English. Poster at the Purdue Undergraduate Research Poster Symposium. West Lafayette, IN.
 
     </div>
-</div>
-<div class="sidebar">
-    <h3>Research Interests</h3>
-    <a href="#">Syntax</a>
-    <a href="#">Syntax</a>
-    <a href="#">Syntax</a>
+    <div class="sidebar">
+        <h3>Research Interests</h3>
+        <a href="#">Syntax</a>
+        <a href="#">Syntax</a>
+        <a href="#">Syntax</a>
+    </div>
 </div>
