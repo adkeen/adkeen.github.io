@@ -60,10 +60,15 @@ button:hover, a:hover {
 </style>
 
 <div class="card">
-  <img src="/assets/img/keen_prof.jpg" alt="Austin Keen" style="width:100%">
+  <!--<img src="/assets/img/keen_prof.jpg" alt="Austin Keen" style="width:100%">-->
   <h1>Austin D. Keen</h1>
-  <p class="title">CEO & Founder, Example</p>
-  <p>Harvard University</p>
+  <p class="title">Linguistics PhD Student</p>
+  <p>Northwestern University</p>
+  <p>Name Pronunciation (IPA):<br>
+  <a href="">[ˈɔstɪn · kiːn]</a></p>
+  <p>Pronouns: he/él</p>
+  <p>Email: <a href="mailto:aukeen@u.northwestern.edu"></a>aukeen[at]u.northwestern.edu</p>
+  <p>Mail: 2016 Sheridan Road, Evanston, IL 60208</p>
   <div style="margin: 24px 0;">
     <a href="#"><i class="fa fa-dribbble"></i></a> 
     <a href="#"><i class="fa fa-twitter"></i></a>  
@@ -71,4 +76,4 @@ button:hover, a:hover {
     <a href="#"><i class="fa fa-facebook"></i></a> 
   </div>
   <p><button>Contact</button></p>
-
+</div>
