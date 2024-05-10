@@ -19,7 +19,7 @@ subtitle:
   box-sizing: border-box;
   font-family: 'Poppins', sans-serif;
 }
-main {
+.main {
     height: 100vh;
     display: flex;
     align-items: center;
