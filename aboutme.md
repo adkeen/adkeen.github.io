@@ -11,3 +11,5 @@ My research explores elements of syntactic structures that are relatively hidden
 I am affiliated with the Syntax, Semantics, and Sentence Processing Lab at Northwestern.
 
 Outside my research, I enjoy hiking, traveling, and playing volleyball in a local league.
+
+![Kyoto Hiking Trip](/assets/img/Kyoto_hike.jpg)

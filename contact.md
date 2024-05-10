@@ -74,11 +74,11 @@ subtitle:
     font-weight: 500;
 }
 .text-data .desc {
-    font-size: 32px;
+    font-size: 30px;
     font-weight: 400;
 }
 .text-data .school {
-    font-size: 15px;
+    font-size: 28px;
     font-weight: 400;
     color: #4E2A84;
 }
