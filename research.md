@@ -1,58 +1,9 @@
 ---
-layout: page
+layout: sidebar
 title: Research
 subtitle: 
 ---
 <!--https://talk.jekyllrb.com/t/create-columns-using-markdown-or-html-or-css/2139-->
-
-<style>
-.container {
-    position: relative;
-    padding: 10px;
-    top: 0px;
-    right: 0;
-    left: 0;
-    height: 1200px;
-}
-.content {
-    border: 1px solid #000;
-    height:700px;
-    padding: 10px;
-    margin-left: 200px;
-}
-.sidebar {
-    position: relative;
-    top:0; bottom:0; left:0;
-    float: right;
-    width: 200px;
-    height: 1000px;
-    background: #dff;
-}
-.sidebar a {
-    display: block;
-    color: black;
-    padding: 16px;
-    text-decoration: none;
-}
-.sidebar a.active {
-    background-color: #04AA6D;
-    color: white;
-}
-.sidebar a:hover:not(.active) {
-    background-color: #555;
-    color: white;
-}
-@media screen and (max-width: 700px) {
-    .sidebar {
-        width: 100%;
-        height: auto;
-        position: relative;
-    }
-    .sidebar a {float: left;}
-}
-</style>
-<div class="container">
-    <div class="content">
 
 ## Publications
 #### 2023
@@ -75,11 +26,3 @@ subtitle:
 * Keen, A., Man, G., & Lee, J. (October 2020). Visual attention influences word order choice in aging and aphasia: Evidence from eyetracking. Poster at the Academy of Aphasia (virtual).
 * Man, G., Keen, A., & Lee, J. (October 2019). Facilitating sentence production in aphasia: Effects of verb overlap and repetition on structural priming. Poster at the International Brain & Syntax Think Tank. Evanston, IL.
 * Keen, A., Kuhns, J., & Zhang, M. (April 2016). Structural Priming in Motion Event Descriptions: Evidence from Mandarin Chinese and English. Poster at the Purdue Undergraduate Research Poster Symposium. West Lafayette, IN.
-    </div>
-    <div class="sidebar">
-        <h3>Research Interests</h3>
-        <a href="#">Syntax</a>
-        <a href="#">Syntax</a>
-        <a href="#">Syntax</a>
-    </div>
-</div>
