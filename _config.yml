@@ -23,6 +23,7 @@ navbar-links:
   About Me: "aboutme"
   Research: "research"
   CV: "cv"
+  Contact: "contact"
 
 ################
 # --- Logo --- #

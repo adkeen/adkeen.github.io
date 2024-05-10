@@ -1,7 +1,7 @@
 ---
 layout: page
 title: About Me
-subtitle: 
+subtitle: Linguistics PhD Student
 ---
 
 My name is [Austin Keen](https://www.name-coach.com/austin-d-keen), and I am a PhD student in [Linguistics](https://linguistics.northwestern.edu/index.html) at [Northwestern University](https://www.northwestern.edu/). My main research interests are syntax, psycholinguistics, and aphasia.
