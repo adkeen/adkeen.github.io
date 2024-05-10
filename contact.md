@@ -77,6 +77,11 @@ subtitle:
     font-size: 15px;
     font-weight: 400;
 }
+.text-data .school {
+    font-size: 15px;
+    font-weight: 400;
+    color: #4E2A84;
+}
 .profile-card .media-buttons {
     display: flex;
     align-items: center;
@@ -124,7 +129,14 @@ subtitle:
         <div class="text-data">
             <span class="name">Austin D. Keen</span>
             <span class="desc">Linguistics PhD Student</span>
-            <span class=""></span>
+            <span class="school">Northwestern University</span>
+            <span>Name Pronunciation (IPA):</span>
+            <span><a href="https://www.name-coach.com/austin-d-keen">[ˈɔstɪn · kiːn]</a></span>
+            <span>Pronouns: he/él</span>
+            <br>
+            <span>Email: <a href="mailto:aukeen@u.northwestern.edu">aukeen[at]u.northwestern.edu</a></span>
+            <br>
+            <span>Mail: 2016 Sheridan Road, Evanston, IL 60208</span>
         </div>
         <div class="media-buttons">
             <a href="#" class="link">
