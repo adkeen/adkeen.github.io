@@ -1,5 +1,5 @@
 ---
-layout: page
+layout: minimal
 title: Contact
 subtitle: 
 ---
@@ -20,7 +20,7 @@ subtitle:
   font-family: 'Poppins', sans-serif;
 }
 .main {
-    height: 100vh;
+    height: 80vh;
     display: flex;
     align-items: center;
     justify-content: center;
