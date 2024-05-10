@@ -20,7 +20,6 @@ subtitle:
   font-family: 'Poppins', sans-serif;
 }
 .main {
-    margin: 10px;
     height: 100vh;
     display: flex;
     align-items: center;
@@ -43,7 +42,7 @@ subtitle:
     position: absolute;
     top: 0;
     left: 0;
-    height: 36%;
+    height: 30%;
     width: 100%;
     border-radius: 24px 24px 0 0;
     background-color: #4070f4;
