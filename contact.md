@@ -18,9 +18,6 @@ Mail: 2016 Sheridan Road, Evanston, IL 60208
 
 <!--https://codepen.io/willalanjohnson/pen/epRbvb-->
 
-~~~
-Test of block quote
-~~~
 
 <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
 <style>
@@ -63,7 +60,7 @@ button:hover, a:hover {
 </style>
 
 <div class="card">
-  <img src="/assets/img/keen_prof.jpg" alt="Austin Keen" style="width:100%">
+  <!--<img src="/assets/img/keen_prof.jpg" alt="Austin Keen" style="width:100%">-->
   <h1>Austin D. Keen</h1>
   <p class="title">CEO & Founder, Example</p>
   <p>Harvard University</p>
