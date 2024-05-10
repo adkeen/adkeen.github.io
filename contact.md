@@ -14,7 +14,7 @@ subtitle:
 <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Poppins:wght@200;300;400;500&display=swap">
 <style>
 *{
-  margin: 0;
+  margin: 10px;
   padding: 0;
   box-sizing: border-box;
   font-family: 'Poppins', sans-serif;
@@ -69,12 +69,12 @@ subtitle:
     align-items: center;
     color: #333;
 }
-.text-data .name {
-    font-size: 22px;
+.text-data .contactname {
+    font-size: 35px;
     font-weight: 500;
 }
 .text-data .desc {
-    font-size: 15px;
+    font-size: 32px;
     font-weight: 400;
 }
 .text-data .school {
@@ -127,11 +127,13 @@ subtitle:
             <img src="/assets/img/keen_prof.jpg" alt="Austin Keen" class="profile-img">
         </div>
         <div class="text-data">
-            <span class="name">Austin D. Keen</span>
+            <span class="contactname">Austin D. Keen</span>
             <span class="desc">Linguistics PhD Student</span>
             <span class="school">Northwestern University</span>
+            <br>
             <span>Name Pronunciation (IPA):</span>
             <span><a href="https://www.name-coach.com/austin-d-keen">[ˈɔstɪn · kiːn]</a></span>
+            <br>
             <span>Pronouns: he/él</span>
             <br>
             <span>Email: <a href="mailto:aukeen@u.northwestern.edu">aukeen[at]u.northwestern.edu</a></span>
