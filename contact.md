@@ -11,65 +11,6 @@ subtitle:
 <!--https://codepen.io/willalanjohnson/pen/epRbvb-->
 
 
-<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
-<style>
-.card {
-  border-radius: 15px;
-  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
-  max-width: 600px;
-  margin: auto;
-  text-align: center;
-  font-family: arial;
-}
-
-.title {
-  color: grey;
-  font-size: 18px;
-}
-
-button {
-  border: none;
-  outline: 0;
-  display: inline-block;
-  padding: 8px;
-  color: white;
-  background-color: #000;
-  text-align: center;
-  cursor: pointer;
-  width: 100%;
-  font-size: 18px;
-}
-
-a {
-  text-decoration: none;
-  font-size: 22px;
-  color: black;
-}
-
-button:hover, a:hover {
-  opacity: 0.7;
-}
-</style>
-
-<div class="card">
-  <!--<img src="/assets/img/keen_prof.jpg" alt="Austin Keen" style="width:100%">-->
-  <h1>Austin D. Keen</h1>
-  <p class="title">Linguistics PhD Student</p>
-  <p>Northwestern University</p>
-  <p>Name Pronunciation (IPA):<br>
-  <a href="">[ˈɔstɪn · kiːn]</a></p>
-  <p>Pronouns: he/él</p>
-  <p>Email: <a href="mailto:aukeen@u.northwestern.edu"></a>aukeen[at]u.northwestern.edu</p>
-  <p>Mail: 2016 Sheridan Road, Evanston, IL 60208</p>
-  <div style="margin: 24px 0;">
-    <a href="#"><i class="fa fa-dribbble"></i></a> 
-    <a href="#"><i class="fa fa-twitter"></i></a>  
-    <a href="#"><i class="fa fa-linkedin"></i></a>  
-    <a href="#"><i class="fa fa-facebook"></i></a> 
-  </div>
-  <p><button>Contact</button></p>
-</div>
-
 <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Poppins:wght@200;300;400;500&display=swap">
 <style>
 *{
@@ -84,7 +25,7 @@ button:hover, a:hover {
   display: flex;
   align-items: center;
   justify-content: center;
-  background-image: url(images/back.jpg);
+  background-image: url(assets/img/bgimage.png);
   background-position: center;
   background-size: cover;
 }
@@ -164,21 +105,14 @@ span{
       <h2>Austin D. Keen</h2>
       <span>Linguistics PhD Student</span>
       <span>Northwestern University</span>
+      <br>
+      <span>Name Pronunciation:<br>
+      <a href="">[ˈɔstɪn · kiːn]</a></span>
+      <span>Pronouns: he/él</span>
+      <span>Email: <a href="mailto:aukeen@u.northwestern.edu">aukeen[at]u.northwestern.edu</a></span>
+      <span>Mail: 2016 Sheridan Road, Evanston, IL 60208</span>
     </div>
-    <div class="row">
-      <div class="info">
-        <h3>Following</h3>
-        <span>120</span>
-      </div>
-      <div class="info">
-        <h3>Followers</h3>
-        <span>5000</span>
-      </div>
-      <div class="info">
-        <h3>Posts</h3>
-        <span>209</span>
-      </div>
-    </div>
+    
     <div class="buttons">
       <a href="#" class="btn">Message</a>
       <a href="#" class="btn">Follow Me</a>
