@@ -8,7 +8,7 @@ subtitle:
 
 <!--https://dev.to/tevko/create-a-virtual-business-card-with-devpage-4o21-->
 
-<!--https://codepen.io/willalanjohnson/pen/epRbvb-->
+<!--https://www.codingnepalweb.com/10-profile-card-template-designs-html-css/-->
 
 
 <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Poppins:wght@200;300;400;500&display=swap">
@@ -20,11 +20,10 @@ subtitle:
   font-family: 'Poppins', sans-serif;
 }
 .main {
-    height: 100vh;
+    height: 50vh;
     display: flex;
     align-items: center;
     justify-content: center;
-    background-color: #f4f4f4; 
 }
 .profile-card {
     display: flex;
