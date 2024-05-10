@@ -52,7 +52,7 @@ subtitle:
 }
 </style>
 <div class="container">
-    <div class="sidebar">
+    <div class="content">
 
 ## Publications
 #### 2023
@@ -75,7 +75,6 @@ subtitle:
 * Keen, A., Man, G., & Lee, J. (October 2020). Visual attention influences word order choice in aging and aphasia: Evidence from eyetracking. Poster at the Academy of Aphasia (virtual).
 * Man, G., Keen, A., & Lee, J. (October 2019). Facilitating sentence production in aphasia: Effects of verb overlap and repetition on structural priming. Poster at the International Brain & Syntax Think Tank. Evanston, IL.
 * Keen, A., Kuhns, J., & Zhang, M. (April 2016). Structural Priming in Motion Event Descriptions: Evidence from Mandarin Chinese and English. Poster at the Purdue Undergraduate Research Poster Symposium. West Lafayette, IN.
-
     </div>
     <div class="sidebar">
         <h3>Research Interests</h3>
