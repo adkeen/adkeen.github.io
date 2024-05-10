@@ -14,13 +14,14 @@ subtitle:
 <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Poppins:wght@200;300;400;500&display=swap">
 <style>
 *{
-  margin: 10px;
+  margin: 0;
   padding: 0;
   box-sizing: border-box;
   font-family: 'Poppins', sans-serif;
 }
 .main {
-    height: 50vh;
+    margin: 10px;
+    height: 100vh;
     display: flex;
     align-items: center;
     justify-content: center;
