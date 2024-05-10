@@ -25,7 +25,6 @@ subtitle:
   display: flex;
   align-items: center;
   justify-content: center;
-  background-color: #f4f4f4;
   background-image: url(assets/img/bgimage.png);
   background-position: center;
   background-size: cover;
