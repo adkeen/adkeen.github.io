@@ -7,13 +7,25 @@ subtitle:
 
 <style>
 .container {
-    width: 450px;
-    margin: 0 auto;
+    position: relative;
+    padding: 10px;
+    top: 0px;
+    right: 0;
+    left: 0;
+    height: 1200px;
+}
+.content {
+    border: 1px solid #000;
+    height:700px;
+    padding: 10px;
+    margin-left: 200px;
 }
 .sidebar {
+    position: relative;
+    top:0; bottom:0; left:0;
     float: right;
     width: 200px;
-    margin: -25px -50px 75px; 
+    height: 1000px;
     background: #dff;
 }
 .sidebar a {
@@ -39,7 +51,8 @@ subtitle:
     .sidebar a {float: left;}
 }
 </style>
-
+<div class="container">
+    <div class="sidebar">
 
 ## Publications
 #### 2023
@@ -63,7 +76,7 @@ subtitle:
 * Man, G., Keen, A., & Lee, J. (October 2019). Facilitating sentence production in aphasia: Effects of verb overlap and repetition on structural priming. Poster at the International Brain & Syntax Think Tank. Evanston, IL.
 * Keen, A., Kuhns, J., & Zhang, M. (April 2016). Structural Priming in Motion Event Descriptions: Evidence from Mandarin Chinese and English. Poster at the Purdue Undergraduate Research Poster Symposium. West Lafayette, IN.
 
-<div class="container">
+    </div>
     <div class="sidebar">
         <h3>Research Interests</h3>
         <a href="#">Syntax</a>
