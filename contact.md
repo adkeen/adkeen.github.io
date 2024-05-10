@@ -19,117 +19,120 @@ subtitle:
   box-sizing: border-box;
   font-family: 'Poppins', sans-serif;
 }
-.main{
-  width: 100%;
-  height: 100vh;
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  background-image: url(assets/img/bgimage.png);
-  background-position: center;
-  background-size: cover;
+body{
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #f4f4f4; 
 }
-.profile-card{
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  max-width: 600px;
-  width: 100%;
-  border-radius: 24px;
-  padding: 25px;
-  border: 1px solid #ffffff40;
-  box-shadow: 0 5px 20px rgba(0,0,0,0.4);
-  position: relative;
+.profile-card {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    max-width: 600px;
+    width: 100%;
+    background: #fff;
+    border-radius: 24px;
+    padding: 25px;
+    box-shadow: 0 5px 10px rgba(0, 0, 0, 0.1);
+    position: relative;
 }
 .profile-card::before{
-    content: '';
+    content: "";
     position: absolute;
     top: 0;
     left: 0;
-    border-radius: 24px;
     height: 36%;
     width: 100%;
+    border-radius: 24px 24px 0 0;
+    background-color: #4070f4;
+}
+.image {
+    position: relative;
+    height: 150px;
+    width: 150px;
+    border-radius: 50%;
+    background-color: #4070f4;
+    padding: 3px;
+    margin-bottom: 10px;
+}
+.image .profile-img {
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+    border-radius: 50%;
+    border: 3px solid #fff;
+}
+.profile-card .text-data {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    color: #333;
+}
+.text-data .name {
+    font-size: 22px;
+    font-weight: 500;
+}
+.text-data .desc {
+    font-size: 15px;
+    font-weight: 400;
+}
+.profile-card .media-buttons {
+    display: flex;
+    align-items: center;
+    margin-top: 15px;
+}
+.media-buttons .link {
+    display: flex;
+    align-items: center;
+    justify-contant: center;
+    color: #fff;
+    font-size: 18px;
+    height: 34px;
+    width: 34px;
+    border-radius: 50%;
+    margin: 0 8px;
+    background-color: #4070f4;
+    text-decoration: none;
+}
+.profile-card .buttons {
+    display: flex;
+    align-items: center;
+    margin-top: 25px;
+}
+.buttons .button {
+    color: #fff;
+    font-size: 14px;
+    font-weight: 400;
+    border: none;
+    border-radius: 24px;
+    margin: 0 10px;
+    padding: 8px 24px;
+    background-color: #4070f4;
+    cursor: pointer;
+    transition: all 0.3s ease;
+}
+.buttons .button::hover {
     background-color: #0e4bf1;
 }
-.image{
-  position: relative;
-  height: 150px;
-  width: 150px;
-  border-radius: 50%;
-  background-color: grey;
-  padding: 3px;
-}
-.image .profile-img{
-  width: 100%;
-  height: 100%;
-  object-fit: cover;
-  border-radius: 50%;
-  border: 3px solid #fff;
-  box-shadow: 0 5px 20px rgba(0,0,0,0.4);
-}
-.data{
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  margin-top: 15px;
-}
-.data h2{
-  font-size: 33px;
-  font-weight: 600;
-}
-span{
-  font-size: 18px;
-}
-.row{
-  display: flex;
-  align-items: center;
-  margin-top: 30px;
-}
-.row .info{
-  text-align: center;
-  padding: 0 20px;
-}
-.buttons{
-  display: flex;
-  align-items: center;
-  margin-top: 30px;
-}
-.buttons .btn{
-  color: #fff;
-  text-decoration: none;
-  margin: 0 20px;
-  padding: 8px 25px;
-  border-radius: 25px;
-  font-size: 18px;
-  white-space: nowrap;
-}
-.buttons .btn:hover{
-  box-shadow: inset 0 5px 20px rgba(0,0,0,0.4);
-}
 </style>
-<section class="main">
-  <div class="profile-card">
-    <div class="image">
-      <img src="/assets/img/keen_prof.jpg" alt="Austin Keen" class="profile-img">
+<body>
+    <div class="profile-card">
+        <div class="image">
+            <img src="/assets/img/keen_prof.jpg" alt="Austin Keen" class="profile-img">
+        </div>
+        <div class="text-data">
+            <span class="name">Austin D. Keen</span>
+            <span class="desc">Linguistics PhD Student</span>
+        </div>
+        <div class="media-buttons">
+            <a href="#" class="link">
+                <i class="bx bxl-facebook"></i>
+            </a>
+        </div>
+        <div class="buttons">
+            <button class="button">Email</button>
+        </div>
     </div>
-    <div class="data">
-      <h2>Austin D. Keen</h2>
-      <span>Linguistics PhD Student</span>
-      <span style="color:#4E2A84;">Northwestern University</span>
-      <br>
-      <span>Name Pronunciation:</span>
-      <span><a href="">[ˈɔstɪn · kiːn]</a></span>
-      <br>
-      <span>Pronouns: he/él</span>
-      <br>
-      <span>Email: <a href="mailto:aukeen@u.northwestern.edu">aukeen[at]u.northwestern.edu</a></span>
-      <br>
-      <span>Mail: 2016 Sheridan Road, Evanston, IL 60208</span>
-    </div>
-    
-    <div class="buttons">
-      <a href="#" class="btn">Message</a>
-      <a href="#" class="btn">Follow Me</a>
-    </div>
-  </div>
-</section>
+</body>
