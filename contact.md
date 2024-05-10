@@ -19,7 +19,7 @@ subtitle:
   box-sizing: border-box;
   font-family: 'Poppins', sans-serif;
 }
-body{
+main {
     height: 100vh;
     display: flex;
     align-items: center;
@@ -96,12 +96,12 @@ body{
     background-color: #4070f4;
     text-decoration: none;
 }
-.profile-card .buttons {
+.profile-card .buttonrow {
     display: flex;
     align-items: center;
     margin-top: 25px;
 }
-.buttons .button {
+.buttonrow .buttonitem {
     color: #fff;
     font-size: 14px;
     font-weight: 400;
@@ -113,11 +113,11 @@ body{
     cursor: pointer;
     transition: all 0.3s ease;
 }
-.buttons .button::hover {
+.buttonrow .buttonitem::hover {
     background-color: #0e4bf1;
 }
 </style>
-<body>
+<section class="main">
     <div class="profile-card">
         <div class="image">
             <img src="/assets/img/keen_prof.jpg" alt="Austin Keen" class="profile-img">
@@ -125,14 +125,15 @@ body{
         <div class="text-data">
             <span class="name">Austin D. Keen</span>
             <span class="desc">Linguistics PhD Student</span>
+            <span class=""></span>
         </div>
         <div class="media-buttons">
             <a href="#" class="link">
                 <i class="bx bxl-facebook"></i>
             </a>
         </div>
-        <div class="buttons">
-            <button class="button">Email</button>
+        <div class="buttonrow">
+            <button class="buttonitem">Email</button>
         </div>
     </div>
-</body>
+</section>
