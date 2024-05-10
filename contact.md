@@ -25,6 +25,7 @@ Test of block quote
 <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
 <style>
 .card {
+  border-radius: 15px;
   box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
   max-width: 300px;
   margin: auto;
@@ -60,14 +61,10 @@ button:hover, a:hover {
   opacity: 0.7;
 }
 </style>
-</head>
-<body>
-
-<h2 style="text-align:center">User Profile Card</h2>
 
 <div class="card">
-  <img src="/w3images/team2.jpg" alt="John" style="width:100%">
-  <h1>John Doe</h1>
+  <img src="/assets/img/keen_prof.jpg" alt="Austin Keen" style="width:100%">
+  <h1>Austin D. Keen</h1>
   <p class="title">CEO & Founder, Example</p>
   <p>Harvard University</p>
   <div style="margin: 24px 0;">
@@ -77,4 +74,4 @@ button:hover, a:hover {
     <a href="#"><i class="fa fa-facebook"></i></a> 
   </div>
   <p><button>Contact</button></p>
-</div>
+
