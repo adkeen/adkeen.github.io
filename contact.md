@@ -92,7 +92,7 @@ button:hover, a:hover {
   display: flex;
   flex-direction: column;
   align-items: center;
-  max-width: 400px;
+  max-width: 600px;
   width: 100%;
   border-radius: 25px;
   padding: 30px;
@@ -103,6 +103,9 @@ button:hover, a:hover {
   position: relative;
   height: 150px;
   width: 150px;
+  border-radius: 50%;
+  background-color: grey;
+  padding: 3px;
 }
 .image .profile-pic{
   width: 100%;
@@ -155,11 +158,12 @@ span{
 <section class="main">
   <div class="profile-card">
     <div class="image">
-      <!--<img src="images/profile.jpg" alt="" class="profile-pic">-->
+      <img src="assets/img/keen_prof.jpg" alt="Austin Keen" class="profile-pic">
     </div>
     <div class="data">
-      <h2>Olivia Gomez</h2>
-      <span>Developer & Designer</span>
+      <h2>Austin D. Keen</h2>
+      <span>Linguistics PhD Student</span>
+      <span>Northwestern University</span>
     </div>
     <div class="row">
       <div class="info">
