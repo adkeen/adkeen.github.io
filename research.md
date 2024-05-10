@@ -5,21 +5,40 @@ subtitle:
 ---
 <!--https://talk.jekyllrb.com/t/create-columns-using-markdown-or-html-or-css/2139-->
 
-
 <style>
-    .grid{
-        display: flex;
+.sidebar {
+    margin: 0;
+    padding: 0;
+    width: 200px;
+    position: fixed;
+    height: 200px;
+    overflow: auto;
+}
+.sidebar a {
+    display: block;
+    color: black;
+    padding: 16px;
+    text-decoration: none;
+}
+.sidebar a.active {
+    background-color: #04AA6D;
+    color: white;
+}
+.sidebar a:hover:not(.active) {
+    background-color: #555;
+    color: white;
+}
+@media screen and (max-width: 700px) {
+    .sidebar {
+        width: 100%;
+        height: auto;
+        position: relative;
     }
-    .col-1-2{
-        flex: 1;
-    }
-    .col-1-2:last-child {
-        margin-left: 20px;
-    }
+    .sidebar a {float: left;}
+}
+
 </style>
-<div class="grid">
-    <div class="col-1-2">
-        <div class="content">
+
 
 ## Publications
 #### 2023
@@ -43,11 +62,9 @@ subtitle:
 * Man, G., Keen, A., & Lee, J. (October 2019). Facilitating sentence production in aphasia: Effects of verb overlap and repetition on structural priming. Poster at the International Brain & Syntax Think Tank. Evanston, IL.
 * Keen, A., Kuhns, J., & Zhang, M. (April 2016). Structural Priming in Motion Event Descriptions: Evidence from Mandarin Chinese and English. Poster at the Purdue Undergraduate Research Poster Symposium. West Lafayette, IN.
 
-        </div>
-    </div>
-    <div class="col-1-2">
-        <div class="content">
-            <p>test</p>
-        </div>
-    </div>
+<div class="sidebar">
+    <h3>Research Interests</h3>
+    <a href="#">Syntax</a>
+    <a href="#">Syntax</a>
+    <a href="#">Syntax</a>
 </div>
