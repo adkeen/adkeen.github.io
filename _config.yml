@@ -13,7 +13,7 @@
 title: Austin D. Keen
 
 # Your name to show in the footer
-author: Austin Keen
+author: Austin D. Keen
 
 ###############################################
 # --- List of links in the navigation bar --- #
@@ -48,7 +48,6 @@ round-avatar: true
 # Uncomment the links you want to show and add your information to each one.
 social-network-links:
   email: "aukeen@u.northwestern.edu"
-  facebook: deanattali
   github: adkeen
 #  medium: yourname
 #  reddit: yourname
