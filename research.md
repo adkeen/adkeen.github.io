@@ -1,7 +1,7 @@
 ---
-layout: sidebar
+layout: page
 title: Research
-subtitle: 
+full-width: true
 ---
 <!--https://talk.jekyllrb.com/t/create-columns-using-markdown-or-html-or-css/2139-->
 

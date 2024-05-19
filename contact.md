@@ -1,7 +1,7 @@
 ---
-layout: minimal
+layout: page
 title: Contact
-subtitle: 
+show-avatar: false
 ---
 
 <!--https://forum.obsidian.md/t/adding-rounded-corners-to-markdown-tables-with-snippets-a-clean-solution/60551-->
