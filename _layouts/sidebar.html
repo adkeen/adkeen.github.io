@@ -1,42 +1,39 @@
 ---
-common-css:
-  - "/assets/css/beautifuljekyll-minimal.css"
-common-ext-css:
-  - href: "https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css"
-    sri: "sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh"
-common-ext-js:
-  - href: "https://code.jquery.com/jquery-3.5.1.slim.min.js"
-    sri: "sha256-4+XzXVhsDmqanXGHaHvgh1gMQKX40OUvDEBTu8JcmNs="
-  - href: "https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js"
-    sri: "sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo"
-  - href: "https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js"
-    sri: "sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6"
-sidebar-js:
-    - "/assets/js/sidebar.js"
+layout: base
 ---
 
-<!DOCTYPE html>
-<html lang="{{ page.language | default: site.language | default: 'en' }}">
-
-  {% include head.html %}
-
-  <body>
-    {% include sidebar.html %}
-    
-    <div class="wrap">
-        <div class="masthead">
-          <div class="container">
-            <h3 class="masthead-title"></h3>
-          </div>
+{% include header.html type="page" %}
+<head><style>
+  aside {
+    width:30%;
+    padding-left: 15px;
+    margin-left: 15px;
+    float: right;
+    background-color: lightgray;
+  }
+</style></head>
+<main class="{% if page.full-width %} container-fluid {% else %} container-md {% endif %}">
+  <div class="row">
+    <div class="{% if page.full-width %} col {% else %} col-xl-8 offset-xl-2 col-lg-10 offset-lg-1 {% endif %}">
+      {% if page.before-content %}
+        <div class="before-content">
+          {% for file in page.before-content %}
+            {% include {{ file }} %}
+          {% endfor %}
         </div>
-        <div class="container content">
-            {{ content }}
+      {% endif %}
+        <
+      {{ content }}
+
+      {% if page.after-content %}
+        <div class="after-content">
+          {% for file in page.after-content %}
+            {% include {{ file }} %}
+          {% endfor %}
         </div>
+      {% endif %}
+
+      {% include comments.html %}
     </div>
-
-    {% include footer-minimal.html %}
-
-    {% include footer-scripts.html %}
-
-  </body>
-</html>
+  </div>
+</main>

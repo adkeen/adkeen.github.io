@@ -1,9 +1,21 @@
 ---
-layout: page
+layout: sidebar
 title: Research
 full-width: true
 ---
 <!--https://talk.jekyllrb.com/t/create-columns-using-markdown-or-html-or-css/2139-->
+
+<style>
+    aside {
+    width: 30%;
+    padding-left: 15px;
+    margin-left: 15px;
+    float: right;
+    font-style: italic;
+    background-color: lightgray;
+    }
+</style>
+
 
 ## Publications
 #### 2023
@@ -27,4 +39,9 @@ full-width: true
 * Man, G., Keen, A., & Lee, J. (October 2019). Facilitating sentence production in aphasia: Effects of verb overlap and repetition on structural priming. Poster at the International Brain & Syntax Think Tank. Evanston, IL.
 * Keen, A., Kuhns, J., & Zhang, M. (April 2016). Structural Priming in Motion Event Descriptions: Evidence from Mandarin Chinese and English. Poster at the Purdue Undergraduate Research Poster Symposium. West Lafayette, IN.
 
-<div class="sidebar" style="float:right;"></div>
+<aside>
+<h3>Test</h3>
+<ul>
+    <li>test1</li>
+</ul>
+</aside>
