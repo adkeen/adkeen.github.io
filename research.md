@@ -1,5 +1,5 @@
 ---
-layout: sidebar
+layout: minimal
 title: Research
 subtitle: 
 ---
