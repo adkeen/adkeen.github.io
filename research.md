@@ -5,26 +5,7 @@ full-width: true
 ---
 <!--https://talk.jekyllrb.com/t/create-columns-using-markdown-or-html-or-css/2139-->
 
-<style>
-    * {
-        box-sizing: border-box;
-    }
-    .column {
-        float: left;
-        width: 70%;
-        padding: 10px;
-    }
-    .row:after {
-        content: "";
-        display: table;
-        clear: both;
-    }
-    @media screen and (max-width: 600px) {
-        .column {
-            width: 100%;
-        }
-    }
-</style>
+
 
 <div class="row">
     <div class="column">
@@ -50,11 +31,3 @@ full-width: true
 * Keen, A., Man, G., & Lee, J. (October 2020). Visual attention influences word order choice in aging and aphasia: Evidence from eyetracking. Poster at the Academy of Aphasia (virtual).
 * Man, G., Keen, A., & Lee, J. (October 2019). Facilitating sentence production in aphasia: Effects of verb overlap and repetition on structural priming. Poster at the International Brain & Syntax Think Tank. Evanston, IL.
 * Keen, A., Kuhns, J., & Zhang, M. (April 2016). Structural Priming in Motion Event Descriptions: Evidence from Mandarin Chinese and English. Poster at the Purdue Undergraduate Research Poster Symposium. West Lafayette, IN.
-
-    </div>
-
-    <div class="column">
-        <h3>Research Interests</h3>
-        <p> Test text </p>
-    </div>
-</div>
