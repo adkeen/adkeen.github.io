@@ -10,7 +10,7 @@ layout: base
   }
   .column {
       float: left;
-      width: 70%;
+      width: 50%;
       padding: 10px;
   }
   .row:after {
@@ -34,15 +34,14 @@ layout: base
       <h3>Research Interests</h3>
       <p> Test text </p>
     </div>
-      {% if page.after-content %}
-        <div class="after-content">
-          {% for file in page.after-content %}
-            {% include {{ file }} %}
-          {% endfor %}
-        </div>
-      {% endif %}
-
-      {% include comments.html %}
+    {% if page.after-content %}
+    <div class="after-content">
+      {% for file in page.after-content %}
+        {% include {{ file }} %}
+      {% endfor %}
     </div>
+  {% endif %}
+
+  {% include comments.html %}
   </div>
 </main>
