@@ -25,6 +25,11 @@ navbar-links:
   CV: "cv"
   Contact: "contact"
 
+sidebar:
+  - title: "Research Interests"
+    text: "Text"
+
+
 ################
 # --- Logo --- #
 ################
