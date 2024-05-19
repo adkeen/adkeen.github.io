@@ -7,9 +7,6 @@ full-width: true
 
 
 
-<div class="row">
-    <div class="column">
-
 ## Publications
 #### 2023
 * Lee, J., **Keen, A.D.**, Farr, E., & Christ, S. (2023). TelePriming sentence production in aphasia. *Frontiers in Human Neuroscience*, *17*.  
