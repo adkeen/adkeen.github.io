@@ -1,5 +1,5 @@
 ---
-layout: minimal
+layout: posts
 title: Research
 subtitle: 
 ---
